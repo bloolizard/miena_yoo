@@ -1,20 +1,4 @@
-var MainNavigation = React.createClass({
-
-    render: function(){
-        return <nav id="main-navigation" className={this.props.layout}>
-            <ul>
-                <li className="active"><a onClick={this.props.onItemClicked} href="">Home</a></li>
-                <li><a onClick={this.props.onItemClicked} href="">My Story</a></li>
-                <li><a onClick={this.props.onItemClicked} href="">Equipment</a></li>
-                <li><a onClick={this.props.onItemClicked} href="">Projects</a></li>
-                <li><a onClick={this.props.onItemClicked} href="">Contact</a></li>
-            </ul>
-        </nav>
-    }
-
-});
-
-var App = React.createClass({
+App = React.createClass({
 
     getInitialState(){
         return {
@@ -23,9 +7,10 @@ var App = React.createClass({
 
     },
 
+
     onItemClicked(e){
-        e.preventDefault();
-        if ($(e.target).text().toLowerCase() !== "home"){
+        var $el = $(e.target);
+        if ($el.text().toLowerCase() !== "home"){
             this.setState({layout: "page"});
         }
         else {
@@ -37,6 +22,7 @@ var App = React.createClass({
         return <div id="outerWrapper">
             <div id="bgOverlay" className={this.state.layout}></div>
             <MainNavigation onItemClicked={this.onItemClicked} layout={this.state.layout} />
+            {this.props.children}
             <div id="left"></div>
             <div id="right"></div>
             <div id="top"></div>
@@ -47,7 +33,6 @@ var App = React.createClass({
 
 
 
-Meteor.startup(function () {
-    // Use Meteor.startup to render the component after the page is ready
-    ReactDOM.render(<App />, document.getElementById('render-target'));
-});
+
+
+
