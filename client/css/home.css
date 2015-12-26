@@ -30,7 +30,7 @@ a, a:visited {
     background-color: rgba(247,247,247,.9);
 }
 
-#bgOverlay.lighten {
+#bgOverlay.home {
     background-color: rgba(161,145,145,.3);
 }
 
@@ -83,6 +83,20 @@ a, a:visited {
 #main-navigation ul li a:hover {
     transition: all .45s ease-in-out;
     border-bottom: 2px solid #f9f4f1 !important;
+}
+
+#main-navigation.page ul li a {
+    color: #6b6b6b;
+}
+
+#main-navigation.page ul li.active a {
+    border-bottom: 2px solid rgba(0,0,0,.5) !important;
+}
+
+#main-navigation.page ul li a:hover {
+    transition: all .45s ease-in-out;
+    border-bottom: 2px solid rgba(0,0,0,.5) !important;
+
 }
 
 #left, #right, #top, #bottom {

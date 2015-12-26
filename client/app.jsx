@@ -1,30 +1,13 @@
 var MainNavigation = React.createClass({
-    getInitialState(){
-        return {
-            layout: "home"
-        }
-
-    },
-
-    handleClick(e){
-        e.preventDefault();
-        if ($(e.target).text().toLowerCase() !== "home"){
-            this.setState({layout: "page"});
-        }
-        else {
-            this.setState({layout: "home"});
-
-        }
-    },
 
     render: function(){
-        return <nav id="main-navigation" className={this.state.layout}>
+        return <nav id="main-navigation" className={this.props.layout}>
             <ul>
-                <li className="active"><a onClick={this.handleClick} href="">Home</a></li>
-                <li><a onClick={this.handleClick} href="">My Story</a></li>
-                <li><a onClick={this.handleClick} href="">Equipment</a></li>
-                <li><a onClick={this.handleClick} href="">Projects</a></li>
-                <li><a onClick={this.handleClick} href="">Contact</a></li>
+                <li className="active"><a onClick={this.props.onItemClicked} href="">Home</a></li>
+                <li><a onClick={this.props.onItemClicked} href="">My Story</a></li>
+                <li><a onClick={this.props.onItemClicked} href="">Equipment</a></li>
+                <li><a onClick={this.props.onItemClicked} href="">Projects</a></li>
+                <li><a onClick={this.props.onItemClicked} href="">Contact</a></li>
             </ul>
         </nav>
     }
@@ -32,10 +15,28 @@ var MainNavigation = React.createClass({
 });
 
 var App = React.createClass({
+
+    getInitialState(){
+        return {
+            layout: "home"
+        }
+
+    },
+
+    onItemClicked(e){
+        e.preventDefault();
+        if ($(e.target).text().toLowerCase() !== "home"){
+            this.setState({layout: "page"});
+        }
+        else {
+            this.setState({layout: "home"});
+        }
+    },
+
     render: function(){
         return <div id="outerWrapper">
-            <div id="bgOverlay" className="lighten"></div>
-            <MainNavigation />
+            <div id="bgOverlay" className={this.state.layout}></div>
+            <MainNavigation onItemClicked={this.onItemClicked} layout={this.state.layout} />
             <div id="left"></div>
             <div id="right"></div>
             <div id="top"></div>
