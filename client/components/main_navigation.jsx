@@ -14,11 +14,11 @@ MainNavigation = React.createClass({
     render: function(){
         return <nav id="main-navigation" className={this.props.layout}>
             <ul>
-                <Tab to="/home" onClick={this.props.onItemClicked}>Home</Tab>
-                <Tab to="/my_story" onClick={this.props.onItemClicked}>My Story</Tab>
-                <Tab to="/shop" onClick={this.props.onItemClicked}>Shop</Tab>
-                <Tab to="/media" onClick={this.props.onItemClicked}>Media</Tab>
-                <Tab to="/upcoming_shows" onClick={this.props.onItemClicked}>Upcoming Shows</Tab>
+                <Tab to="/home">Home</Tab>
+                <Tab to="/my_story">My Story</Tab>
+                <Tab to="/shop">Shop</Tab>
+                <Tab to="/media">Media</Tab>
+                <Tab to="/upcoming_shows">Upcoming Shows</Tab>
             </ul>
         </nav>
     }

@@ -1,0 +1,1 @@
+Actions = Reflux.createActions(['setLayout']);

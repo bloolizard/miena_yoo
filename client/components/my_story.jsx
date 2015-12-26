@@ -1,6 +1,6 @@
 MyStory = React.createClass({
-    componentDidMount(){
-        this.props.updateLayout;
+    componentWillMount(){
+        Actions.setLayout('page');
     },
 
     render(){
