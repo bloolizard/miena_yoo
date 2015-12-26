@@ -1,3 +1,7 @@
+a, a:visited {
+    text-decoration: none;
+}
+
 #outerWrapper {
     background-image: url("https://static.squarespace.com/static/ta/507c1fdb84ae362b5e7be351/2031/assets/alt-bg-image.jpg");
     background-position: top left;
@@ -28,6 +32,57 @@
 
 #bgOverlay.lighten {
     background-color: rgba(161,145,145,.3);
+}
+
+#main-navigation {
+    position: absolute;
+    width: 100% !important;
+    top: 48% !important;
+    z-index: 1;
+}
+
+
+#main-navigation.page {
+    position: relative;
+    top: auto;
+    left: auto;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+#main-navigation ul {
+    margin: 1em auto 30px;
+    text-align: center;
+}
+
+#main-navigation ul li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-style: normal;
+    list-style-type: none;
+    display: inline-block;
+    padding: 1em 1em 0;
+    margin: 0;
+}
+
+#main-navigation ul li a {
+    transition: all .45s ease-in-out;
+    color: #f9f9f9;
+    border-bottom: 2px solid rgba(255,255,255,0);
+}
+
+#main-navigation ul li.active a {
+    border-bottom: 2px solid #f9f4f1 !important;
+}
+
+#main-navigation ul li a:hover {
+    transition: all .45s ease-in-out;
+    border-bottom: 2px solid #f9f4f1 !important;
 }
 
 #left, #right, #top, #bottom {
