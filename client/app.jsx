@@ -10,10 +10,17 @@ App = React.createClass({
     },
 
     render: function(){
-        return <div id="outerWrapper">
+        return <div id="outerWrapper" className={this.state.layout}>
             <div id="bgOverlay" className={this.state.layout}></div>
             <MainNavigation layout={this.state.layout} />
-            {this.props.children}
+            <div id="innerWrapper">
+                <div className={"title-area " + this.state.layout}>
+                    <img src="/images/miena_yoo.png"/>
+                </div>
+                <div id="content">
+                    {this.props.children}
+                </div>
+            </div>
             <div id="left"></div>
             <div id="right"></div>
             <div id="top"></div>

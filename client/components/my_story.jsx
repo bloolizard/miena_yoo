@@ -4,7 +4,10 @@ MyStory = React.createClass({
     },
 
     render(){
-        return <div>Miena Yoo was born and grew up in a small town called Samga, in South Korea. Samga was surrounded by
+        return <div className="main-content-wrapper">
+            <h1 className="text-align-center">My Story</h1>
+            <p className="text-align-center">
+            Miena Yoo was born and grew up in a small town called Samga, in South Korea. Samga was surrounded by
             beautiful mountains and a river, the Yangcheon, where she used to swim in the summer and skate in the winter.
             Miena's dad, Seong Bang Yoo, was a veterinarian, and she accompanied him, going from farm to farm curing sick animals.
             Her mother, Kee Hee Che, was an assistant nurse at Miena's dad's clinic, and she was active in her hometown church choir.
@@ -24,6 +27,7 @@ MyStory = React.createClass({
 
             Please pick up copies of her CDs, "At the River Again" and "A Little Stone On the Sidewalk",
             and listen to her distinctive soulful voice that conveys deep emotion and moves people's hearts.
-            Thank you.</div>
+            Thank you.
+        </p></div>
     }
 });

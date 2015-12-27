@@ -2,6 +2,27 @@ a, a:visited {
     text-decoration: none;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #8b8484;
+    line-height: 1.8em;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 75px;
+    line-height: .7em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #6b6b6b;
+    margin: 2em 0 .75em;
+    margin-top: 1em;
+    /*margin-bottom: 0;*/
+}
+
 #outerWrapper {
     background-image: url("https://static.squarespace.com/static/ta/507c1fdb84ae362b5e7be351/2031/assets/alt-bg-image.jpg");
     background-position: top left;
@@ -16,6 +37,43 @@ a, a:visited {
     width: 100%;
     min-height: 100%;
     z-index: 1;
+}
+
+#outerWrapper.page {
+    background-image: url("/images/santana_row_1.JPG");
+
+}
+
+
+.title-area {
+    padding-top: 20%;
+    margin-top: 20px !important;
+    margin-bottom: 120px !important;
+    position: relative;
+    top: 0;
+    text-align: center;
+}
+
+.title-area.page {
+    display: none;
+}
+
+.title-area img {
+    display: inline;
+}
+
+#innerWrapper {
+    width: 61%;
+    margin: 30px auto;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+#innerWrapper #content .main-content-wrapper {
+    width: 84%;
+    margin: 30px auto;
 }
 
 #bgOverlay {
@@ -126,6 +184,7 @@ a, a:visited {
 
 #top {
     top: 0;
+    z-index: 9999 !important;
 }
 
 #bottom {
