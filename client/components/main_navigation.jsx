@@ -19,6 +19,7 @@ MainNavigation = React.createClass({
                 <Tab to="/shop">Shop</Tab>
                 <Tab to="/media">Media</Tab>
                 <Tab to="/upcoming_shows">Upcoming Shows</Tab>
+                <Tab to="/contact">Contact</Tab>
             </ul>
         </nav>
     }
