@@ -201,5 +201,25 @@ h1 {
     bottom: 0;
 }
 
+.album-cover {
+    margin-left: 100px;
+    max-width: 30%;
+    float: left;
+}
+
+img.album-image {
+    min-width: 300px;
+}
+
+.album-detail {
+    padding-left: 100px;
+    min-width: 30%;
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
 
 /*Album Cover Detail*/
