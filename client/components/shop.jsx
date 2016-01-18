@@ -26,6 +26,9 @@ Shop = React.createClass({
     render(){
         return (<div>
             <h1 className="text-align-center">Shop</h1>
+            <div className="selling_detail">
+                <p>Click the  "VISA" BUY NOW button below.</p>
+            </div>
             <div className="album-cover">
                 <img className="album-image" src="/images/album_cover.jpg"/>
             </div>
@@ -33,6 +36,11 @@ Shop = React.createClass({
                 <table>
                     {this.albumDetailCell()}
                 </table>
+            </div>
+            <div className="clear"></div>
+            <div className="secondCD">
+                <p>"A Little Stone on the Sidewalk" : 2nd CD</p>
+                <p><a href="http://www.myspace.com/mienayoo">Myspace.com for Demos songs</a></p>
             </div>
             <div className="clear"></div>
             <div className="text-align-center paypal">

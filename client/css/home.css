@@ -23,6 +23,19 @@ h1 {
     /*margin-bottom: 0;*/
 }
 
+h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 50px;
+    line-height: 1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #6b6b6b;
+    margin: 2em 0 .75em;
+    margin-top: 1em;
+    /*margin-bottom: 0;*/
+}
+
 #outerWrapper {
     background-image: url("https://static.squarespace.com/static/ta/507c1fdb84ae362b5e7be351/2031/assets/alt-bg-image.jpg");
     background-position: top left;
@@ -219,6 +232,14 @@ img.album-image {
 
 .clear {
     clear: both;
+}
+
+.secondCD, .selling_detail {
+    margin-left: 6em;
+}
+
+.video-tube {
+    padding: 5%;
 }
 
 
