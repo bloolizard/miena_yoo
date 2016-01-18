@@ -4,6 +4,12 @@ Media = React.createClass({
     },
 
     render(){
-        return (<div></div>)
+        return (<div>
+        <div>KQED</div>
+        <div>Flower Show</div>
+        <div>Gallery</div>
+
+
+        </div>)
     }
 });
