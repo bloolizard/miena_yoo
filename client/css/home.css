@@ -242,5 +242,29 @@ img.album-image {
     padding: 5%;
 }
 
+form .email_submit {
+    margin: 0 auto;
+}
+
+.email_submit label, .email_submit textarea {
+    display: inline-block;
+}
+
+.email_submit div {
+    margin-left: 20%;
+}
+
+.email_submit div label {
+    width: 15%;
+    text-align: right;
+}
+
+.email_submit div input, textarea {
+    margin-left: 5%;
+    margin-bottom: 2.5%;
+    width: 250px;
+
+}
+
 
 /*Album Cover Detail*/
