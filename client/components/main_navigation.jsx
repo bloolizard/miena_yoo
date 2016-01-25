@@ -20,6 +20,7 @@ MainNavigation = React.createClass({
                 <Tab to="/media">Media</Tab>
                 <Tab to="/upcoming_shows">Upcoming Shows</Tab>
                 <Tab to="/contact">Contact</Tab>
+                <Tab to="/archive">Archive</Tab>
             </ul>
         </nav>
     }

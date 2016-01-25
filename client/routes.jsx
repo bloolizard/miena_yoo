@@ -10,6 +10,7 @@ Meteor.startup(function () {
                 <Route path="media" component={Media}></Route>
                 <Route path="upcoming_shows" component={UpcomingShows}></Route>
                 <Route path="contact" component={Contact}></Route>
+                <Route path="archive" component={Archive}></Route>
             </Route>
         </Router>
     ), $('#render-target')[0]);
