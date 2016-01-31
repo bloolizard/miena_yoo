@@ -29,6 +29,12 @@ UpcomingShows = React.createClass({
                 </tr>
                 <tr>
                     <td>October 28/16</td>
+                    <td>Saturday 10:00-2:00pm</td>
+                    <td>at Orange Memorial Park in South San Francisco</td>
+                    <td className="link">www.pcfma.com</td>
+                </tr>
+                <tr>
+                    <td>October 22/16</td>
                     <td>Saturday 9:00-1:00pm</td>
                     <td>at Vallco Shopping Mall Farmers' Market in Cupertino</td>
                     <td className="link">www.pcfma.com</td>
@@ -52,6 +58,12 @@ UpcomingShows = React.createClass({
                     <td className="link">www.pcfma.com</td>
                 </tr>
                 <tr>
+                    <td>September 24/16 </td>
+                    <td>Saturday 10:00-2:00pm</td>
+                    <td>at Orange Memorial Park in South San Francisco</td>
+                    <td className="link">www.pcfma.com</td>
+                </tr>
+                <tr>
                     <td>September 16/16 </td>
                     <td>Friday 10:00-2:00pm</td>
                     <td>at San Jose Downtown Farmers' Market - San Pedro Square in San Jose</td>
@@ -67,6 +79,12 @@ UpcomingShows = React.createClass({
                     <td>September 03/16</td>
                     <td>Saturday 9:00-1:00pm</td>
                     <td>at Pleasant Hill Farmers' Market in Pleasant Hill</td>
+                    <td className="link">www.pcfma.com</td>
+                </tr>
+                <tr>
+                    <td>August 20/16 </td>
+                    <td>Saturday 10:00-2:00pm</td>
+                    <td>at Orange Memorial Park in South San Francisco </td>
                     <td className="link">www.pcfma.com</td>
                 </tr>
                 <tr>
@@ -106,9 +124,21 @@ UpcomingShows = React.createClass({
                     <td className="link">www.pcfma.com</td>
                 </tr>
                 <tr>
+                    <td>July 02/16</td>
+                    <td>Saturday 9:00-1:00pm</td>
+                    <td>at Sunnyvale Farmers' Market in Sunnyvale</td>
+                    <td className="link">www.urbanvillage.org</td>
+                </tr>
+                <tr>
                     <td>June 25/16</td>
                     <td>Saturday 9:00-1:00pm</td>
                     <td>at Vallejo Farmers' Market in Vallejo</td>
+                    <td className="link">www.pcfma.com</td>
+                </tr>
+                <tr>
+                    <td>June 18/16</td>
+                    <td>Saturday 10:00-2:00pm</td>
+                    <td>at Orange Memorial Park in South San Francisco</td>
                     <td className="link">www.pcfma.com</td>
                 </tr>
                 <tr>
@@ -128,6 +158,12 @@ UpcomingShows = React.createClass({
                     <td>Saturday 9:00-1:00pm</td>
                     <td>at San Mateo Farmers' Market in San Mateo</td>
                     <td className="link">www.pcfma.com</td>
+                </tr>
+                <tr>
+                    <td>May 08/16</td>
+                    <td>Sunday 9:00-1:00pm</td>
+                    <td>at Campbell Farmers' Market in Downtown Campbell</td>
+                    <td className="link">www.urbanvillage.org</td>
                 </tr>
                 <tr>
                     <td>April 30/16</td>
@@ -170,6 +206,12 @@ UpcomingShows = React.createClass({
                     <td>Saturday 9:00-1:00pm</td>
                     <td>at Vallejo Farmers' Market in Vallejo</td>
                     <td className="link">www.pcfma.com</td>
+                </tr>
+                <tr>
+                    <td>Feb 14/16</td>
+                    <td>Saturday 9:00-1:00pm</td>
+                    <td>at Palo Alto Farmers' Market in Palo Alto</td>
+                    <td className="link">www.urbanvillage.org</td>
                 </tr>
                 <tr>
                     <td>Jan 23/16</td>
