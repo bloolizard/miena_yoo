@@ -267,5 +267,12 @@ form .email_submit {
 
 }
 
+.player {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+}
+
 
 /*Album Cover Detail*/
