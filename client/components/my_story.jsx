@@ -42,6 +42,11 @@ MyStory = React.createClass({
             <p className="text-align-center">
                 Thank you.
             </p>
+            <audio autoPlay>
+                <source src="music/crickets_night.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </source>
+            </audio>
         </div>
     }
 });
