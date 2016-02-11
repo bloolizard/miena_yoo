@@ -22,6 +22,12 @@ UpcomingShows = React.createClass({
                     <td className="link">www.pcfma.com</td>
                 </tr>
                 <tr>
+                    <td>December 03/16</td>
+                    <td>Saturday 9:00-1:00pm</td>
+                    <td>at Sunnyvale Farmers' Market in Sunnyvale</td>
+                    <td className="link">www.urbanvillage.org</td>
+                </tr>
+                <tr>
                     <td>November 08/16</td>
                     <td>Tuesday 10:00-2:00pm</td>
                     <td>at Concord Farmers' Market in Concord</td>
