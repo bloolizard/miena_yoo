@@ -28,7 +28,7 @@ MyStory = React.createClass({
                 1st album " At the River Again " , and in 2008, her 2nd album "A Little Stone On the Sidewalk". Miena's songs are inspired by
                 her childhood, family members, and the forests, river, and wildlife of her Korean home. Her folk-driven sound carries influences
                 from American songstresses Tracy Chapman and Lucinda Williams.
-            </p>
+            </p >
             <p className="text-align-center">
                 In the midst of a busy playing schedule and work on her new album, Miena remains focused on giving back to the surrounding community;
                 veteran's hospitals, elderly centers and the UCSF Cancer Center. She shows that individuals still care for people who often feel forgotten
