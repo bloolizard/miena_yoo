@@ -15,8 +15,7 @@ var transporter = nodemailer.createTransport({
 
 Meteor.methods({
     'sendEmail': function(subject, body){
-        var to = "edwincv0@gmail.com, mienayoomailer@gmail.com, mienayoo@hotmail.com";
-        sendMail(to, subject, body);
+        sendGridMail(subject,body);
     }
 });
 
@@ -32,3 +31,20 @@ function sendMail(to, subject, body){
         }
     });
 }
+
+var sendgrid  = Meteor.require('sendgrid')("process.env.SENDGRID_USERNAME", "process.env.SENDGRID_PASSWORD");
+
+// todo: clean this up and hide email details in ENV file
+function sendGridMail(subject, body){
+    sendgrid.send({
+        //to:       'edwincv0@gmail.com, mienayoomailer@gmail.com, mienayoo@hotmail.com',
+        to:       'mienayoo@hotmail.com',
+        from:     'mienayoomailer@gmail.com',
+        subject:  subject,
+        text:     body
+    }, function(err, json) {
+        if (err) { return console.error(err); }
+        console.log(json);
+    });
+}
+
