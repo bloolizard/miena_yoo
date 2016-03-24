@@ -32,7 +32,7 @@ function sendMail(to, subject, body){
     });
 }
 
-var sendgrid  = Meteor.require('sendgrid')("process.env.SENDGRID_USERNAME", "process.env.SENDGRID_PASSWORD");
+var sendgrid  = Meteor.require('sendgrid')(process.env.SENDGRID_USERNAME, process.env.SENDGRID_PASSWORD);
 
 // todo: clean this up and hide email details in ENV file
 function sendGridMail(subject, body){
