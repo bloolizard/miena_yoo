@@ -1,3 +1,30 @@
+MienaSlider = React.createClass({
+    componentDidMount(){
+        $(this.refs.miena_slider).slick({
+            autoplay: true
+        });
+    },
+    render(){
+        return (
+            <div className="miena_slider" ref="miena_slider">
+                <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_000.jpg" alt=""/></div>
+                <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_001.jpg" alt=""/></div>
+                <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_002.jpg" alt=""/></div>
+                <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_003.jpg" alt=""/></div>
+                <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_004.jpg" alt=""/></div>
+                <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_005.jpg" alt=""/></div>
+                <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_006.jpg" alt=""/></div>
+                <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_007.jpg" alt=""/></div>
+                <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_008.jpg" alt=""/></div>
+                <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_009.jpg" alt=""/></div>
+                <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_010.jpg" alt=""/></div>
+                <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_011.jpg" alt=""/></div>
+            </div>
+        )
+
+    }
+});
+
 MyStory = React.createClass({
     componentWillMount(){
         Actions.setLayout('page');
@@ -6,7 +33,7 @@ MyStory = React.createClass({
     render(){
         return <div className="main-content-wrapper my-story">
             <h1 className="text-align-center">My Story</h1>
-            <img className="thumb-image" src="/images/speaking.jpg"/>
+            <MienaSlider />
             <br/>
             <br/>
             <p id="intro" className="text-align-center">

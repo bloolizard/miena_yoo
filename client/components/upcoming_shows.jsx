@@ -154,10 +154,22 @@ UpcomingShows = React.createClass({
                     <td className="link">www.pcfma.com</td>
                 </tr>
                 <tr>
+                    <td>June 09/16</td>
+                    <td>Thursday 4:30-6:30pm</td>
+                    <td>at Voyageur du Temps  in Los Altos </td>
+                    <td className="link">www.voyageur.com</td>
+                </tr>
+                <tr>
                     <td>June 04/16</td>
                     <td>Saturday 10:00-2:00pm</td>
                     <td>at Santa Teresa Farmers' Market in San Jose</td>
                     <td className="link">www.pcfma.com</td>
+                </tr>
+                <tr>
+                    <td>June 02/16</td>
+                    <td>Thursday 4:30-6:30pm</td>
+                    <td>at Voyageur du Temps  in Los Altos </td>
+                    <td className="link">www.voyageur.com</td>
                 </tr>
                 <tr>
                     <td>May 17/16</td>
