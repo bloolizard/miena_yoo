@@ -7,6 +7,7 @@ MienaSlider = React.createClass({
     render(){
         return (
             <div className="miena_slider" ref="miena_slider">
+                <div><img className="thumb-image" src="/images/speaking.jpg"/></div>
                 <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_000.jpg" alt=""/></div>
                 <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_001.jpg" alt=""/></div>
                 <div><img className="thumb-image" src="/images/miena_slider/miena_yoo_slider_002.jpg" alt=""/></div>
