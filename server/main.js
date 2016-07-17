@@ -2,49 +2,60 @@ var nodemailer = Meteor.npmRequire('nodemailer');
 
 Meteor.startup(function(){
     console.log('Starting the Meteor Up.');
+
+    loadAWSConfig();
+
 });
 
-var transporter = nodemailer.createTransport({
-    service: 'Gmail',
-    auth: {
-        //todo: not good to store password, should store in env var
-        user: 'mienayoomailer@gmail.com',
-        pass: 'mailer1234'
-    }
-});
+var AWS = Meteor.npmRequire('aws-sdk');
+var ses;
+
+function loadAWSConfig(){
+
+    var config = { "accessKeyId": process.env.AWS_ACCESS_KEY_ID,
+        "secretAccessKey": process.env.AWS_SECRET_ACCESS_KEY,
+        "region": "us-west-2"};
+
+    AWS.config.update(config);
+    ses = new AWS.SES();
+}
+
 
 Meteor.methods({
     'sendEmail': function(subject, body){
-        sendGridMail(subject,body);
+        console.log(subject, body);
+        sendMail(["mienayoomailer@gmail.com"], subject,body);
     }
 });
 
 function sendMail(to, subject, body){
-    transporter.sendMail({
-        from: 'mailer@dinebellavita.com',
-        to: to,
-        subject: subject,
-        text: body
-    }, function(error, info){
-        if (error){
-            console.log(error);
-        }
-    });
-}
 
-var sendgrid  = Meteor.require('sendgrid')(process.env.SENDGRID_USERNAME, process.env.SENDGRID_PASSWORD);
+    // this must relate to a verified SES account
+    var from = 'mienayoomailer@gmail.com';
 
-// todo: clean this up and hide email details in ENV file
-function sendGridMail(subject, body){
-    sendgrid.send({
-        //to:       'edwincv0@gmail.com, mienayoomailer@gmail.com, mienayoo@hotmail.com',
-        to:       'mienayoo@hotmail.com',
-        from:     'mienayoomailer@gmail.com',
-        subject:  subject,
-        text:     body
-    }, function(err, json) {
-        if (err) { return console.error(err); }
-        console.log(json);
+    var params = {
+        Destination: { /* required */
+
+            ToAddresses: to
+        },
+        Message: { /* required */
+            Body: { /* required */
+                Html: {
+                    Data: body /* required */
+                },
+                Text: {
+                    Data: body /* required */
+                }
+            },
+            Subject: { /* required */
+                Data: subject/* required */
+            }
+        },
+        Source: from /* required */
+    };
+    ses.sendEmail(params, function(err, data) {
+        if (err) console.log(err, err.stack); // an error occurred
+        else     console.log(data);           // successful response
     });
 }
 
