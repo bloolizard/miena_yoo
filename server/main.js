@@ -24,7 +24,7 @@ function loadAWSConfig(){
 Meteor.methods({
     'sendEmail': function(subject, body){
         console.log(subject, body);
-        sendMail(["mienayoomailer@gmail.com, edwincv0@gmail.com"], subject,body);
+        sendMail(["mienayoomailer@gmail.com", "mienayoo@hotmail.com"], subject,body);
     }
 });
 
