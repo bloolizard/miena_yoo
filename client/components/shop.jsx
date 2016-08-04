@@ -40,8 +40,8 @@ Shop = React.createClass({
             <div className="clear"></div>
             <div className="secondCD">
                 <p>"A Little Stone on the Sidewalk" : 2nd CD</p>
-                <p><a href="https://itunes.apple.com/us/artist/miena-yoo/id289152310">See my songs on iTunes </a></p>
-                <p><a href="http://www.cdbaby.com/Artist/MienaYoo">See my store on CD Baby </a></p>
+                <p><a target="_blank" href="https://itunes.apple.com/us/artist/miena-yoo/id289152310">See my songs on iTunes </a></p>
+                <p><a target="_blank" href="http://www.cdbaby.com/Artist/MienaYoo">See my store on CD Baby </a></p>
             </div>
             <div className="clear"></div>
             <div className="text-align-center paypal">
