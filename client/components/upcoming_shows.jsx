@@ -100,6 +100,12 @@ UpcomingShows = React.createClass({
                     <td className="link">www.pcfma.com</td>
                 </tr>
                 <tr>
+                    <td>August 8/16 </td>
+                    <td>Saturday 5:00-8:00pm</td>
+                    <td>at the Santana Row, at Oak Tree Lounge (front of the Oak Tree, behind the Vintage Wine Bar) in San Jose </td>
+                    <td className="link">www.santanarow.com</td>
+                </tr>
+                <tr>
                     <td>July 31/16 </td>
                     <td>Sunday 9:00-1:00pm </td>
                     <td>at Livermore Farmers' Market in Livermore </td>
