@@ -13,8 +13,9 @@ UpcomingShows = React.createClass({
         });
 
         Meteor.subscribe('events', ()=>{
-            let events = Events.find().fetch();
-            let eventsMap = $(events).map((idx, el)=>{
+            let eventList = Events.find().fetch();
+            eventList = eventList.sort(function(a, b){return a._id-b._id});
+            let eventsMap = $(eventList).map((idx, el)=>{
                 return (<tr key={el._id}>
                     <td>{el.Date}</td>
                     <td>{el.Time}</td>
