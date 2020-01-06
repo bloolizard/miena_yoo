@@ -1,0 +1,44 @@
+_id,Date,Time,Location,Website
+1,Jan 5/20,Sunday 9:00-1:00pm,at Evergreen Farmers' Market in San Jose,www.pcfma.com
+2,Jan 26/20,Sunday 9:00-2:00pm,at Irvington Farmers' Market in Fremont,www.pcfma.com
+3,Feb 2/20,Sunday 10:00-2:00pm,at Divisadero Farmers' Market in San Francisco,www.pcfma.com
+4,Feb 9/20,Sunday 10:00-2:00pm,at Livermore Farmers' Market in Livermore,www.pcfma.com
+5,Feb 29/20,Saturday 9:00-1:00pm,at Santa Teresa Farmers' Market in San Jose,www.pcfma.com
+6,March 13/20,Friday 9:00-1:00pm,at Creekside Farmers' Market in Cupertino,www.pcfma.com
+7,March 21/20,Saturday 9:00-1:00pm,at San Mateo Farmers' Market in San Mateo,www.pcfma.com
+8,March 25/20,Wednesday 9:00-1:00pm,at Evergreen Farmers’ Market in San Jose,www.pcfma.com
+9,April 5/20,Sunday 8:00-1:00pm,at Great Mall Farmers' Market in Milpitas,www.pcfma.com
+10,April 18/20,Saturday 9:00-1:00pm,at Alameda Farmers' Market in Alameda,www.pcfma.com
+11,April 26/20,Sunday 10:00:200PM,at Livermore Farmers' Market Livermore,www.pcfma.com
+12,May 7/20,Thursday 4:00-8:00pm,at Livermore Farmers’ Market in Livermore,www.pcfma.com
+13,May 10/20,Sunday 9:00-1:00pm,at Belmonte Farmers' Market in Belmonte,www.pcfma.com
+14,May 24/20,Sunday 9:00-1:00pm,at Evergreen Farmer’s Market in San Jose,www.pcfma.com
+15,May 30/20,Saturday 9:00-1:00pm,at Santa Teresa Farmers' Market in San Jose,www.pcfma.com
+16,June 6/20,Saturday 9:00-1:00pm,at Danville Farmers' Market in Danville,www.pcfma.com
+17,June 12/20,Friday 8:00-1:00pm,at Creekside Farmers' Market in Cupertino,www.pcfma.com
+18,June 14/20,Sunday 10:00-2:00pm,at Divisadero Farmers' Market in San Francisco,www.pcfma.com
+19,June 20/20,Saturday 9:00-1:00pm,at Pleasant Farmers' Market in Pleasant,www.pcfma.com
+20,June 28/20,Saturday 900-1:00pm,at Irvinton Farmers' Market in Fremont,www.pcfma.com
+21,July 10/20,Friday 10:00-2:00pm,at Downtown San Jose Market in San Jose,www.pcfma.com
+22,July 19/20,Sunday 8:00-1:00pm,at Milphitas Farmers’ Market in Milpitas,www.pcfma.com
+23,July 25/20,Saturday 9:00-1:00pm,at San Mateo Farmers’ Market in San Mateo,www.pcfma.com
+24,July 29/20,Wednesday 9:00-1:00pm,at Evergreen Farmers’ Market in San Jose,www.pcfma.com
+25,August 13/20,Thursday 4:00-8:00pm,at Livermore Farmers’ Market in Livermore,www.pcfma.com
+26,August 22/20,Satuday 9:00-1:00pm,at Alameda Farmers' Market In Alameda,www.pcfma.com
+27,August 30/20,Sunday 9:00-1:00pm,at Inner Sunset Farmers' Market in San Francisco,www.pcfma.com
+28,September 6/20,Sunday 9:00-1:00pm,at Belmonte Farmers' Market in Belmonte,www.pcfma.com
+29,September 13/20,Sunday 10:00-2:00pm,at Livermore Farmers' Market in Livermore,www.pcfma.com
+30,September 19/20,Saturday 9:00-1:00pm,at Pinole Farmers' Market in Pinole,www.pcfma.com
+31,September 25/20,Friday 10:00-2:00pm,at Downtown San Jose Farmers' Market in San Jose,www.pcfma.com
+32,October 10/20,Saturday 9:00-1:00pm,at Pleasanton Farmers' Market in Pleasanton,www.pcfma.com
+33,October 11/20,Sunday 10:00-2:00pm,at Divisadero Farmers' Market in San Francisco,www.pcfma.com
+34,October 18/20,Sunday 9:00-1:00pm,at Irvington Farmers' Market in Fremont,www.pcfma.com
+35,October 25/20,Sunday 9:00-1:00pm,at Evergreen Farmers' Market in San Jose,www.pcfma.com
+36,November 1/20,Sunday 9:00-1:00pm,at Inner Sunset Farmers' Market in San Francisco,www.pcfma.com
+37,November 6/20,Friday 8:00-1:00pm,at Creekside Farmers' Market in Cupertino,www.pcfma.com
+38,November 15/20,Sunday 8:00-1:00pm,at Great Mall Farmers' Market in Milpitas,www.pcfma.com
+39,November 21/20,Saturday 9:00-1:00pm,at San Mateo Farmers' Market in San Mateo,www.pcfma.com
+40,November 25/20,Wednesday 9:00-1:00pm,at Evergreen Farmers' Market in San Jose,www.pcfma.com
+41,December 12/20,Saturday 9:00-1:00pm,at Pinole Farmers' Market in Pinole,www.pcfma.com
+42,December 19/20,Saturday 9:00-1:00pm,at Alameda Farmers' Market in Alameda,www.pcfma.com
+43,December 26/20,Saturday 9:00-1:00pm,at Santa Teresa Farmers' Market in San Jose,www.pcfma.com
